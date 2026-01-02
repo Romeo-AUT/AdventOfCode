@@ -29,6 +29,8 @@ public class Floor{
                 floor++;
             else
                 floor --;
+            if(floor == -1)
+                return i + 1;
         }
         return floor;
     }
